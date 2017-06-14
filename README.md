@@ -1,6 +1,7 @@
 # python_setting
 only for me
 
+~~~shell 
 vi ~/.config/fish/config.fish
   1 set -g fish_user_paths "/usr/local/opt/icu4c/bin" $fish_user_paths
   2 set -g fish_user_paths "/usr/local/opt/icu4c/sbin" $fish_user_paths
@@ -11,3 +12,4 @@ vi ~/.config/fish/config.fish
   7 set -g PIP_VIRTUALENV_BASE $WORKON_HOME
   8 set -g PIP_RESPECT_VIRTUALENV true
   9 eval "bash /usr/local/bin/virtualenvwrapper.sh"
+~~~~
